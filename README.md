@@ -17,3 +17,14 @@
 [Plugin API/Filter Reference](https://codex.wordpress.org/Plugin_API/Filter_Reference)
 
 [Plugin API/Action Reference](https://codex.wordpress.org/Plugin_API/Action_Reference)
+
+## WP Admin
+[Administration Menus](https://codex.wordpress.org/Administration_Menus)
+
+[Dashicons](https://developer.wordpress.org/resource/dashicons)
+
+## WP Widgets
+
+[Category:Widgets](https://codex.wordpress.org/Category:Widgets)
+
+[Dashboard Widgets API](https://codex.wordpress.org/Dashboard_Widgets_API)
