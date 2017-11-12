@@ -9,21 +9,16 @@
  */
 ?>
 <?php
-/**
- * https://logging.apache.org/log4php/quickstart.html
- */
-require_once __DIR__ . '/../log4php/Logger.php';
-Logger::configure(__DIR__ . '/../log4php/config.xml');
-$log = Logger::getLogger('bkLogger');
+
 //$log->debug(print_r($elem, true));
 //$log->debug('some text');
 
 function wpdbTest($param) {
     /** @var \wpdb The WP database object */
-    global $wpdb, $log;
+    global $wpdb, $logger;
     $tablename = $wpdb->prefix.'options';
     $sql = $wpdb->prepare("SELECT * FROM $tablename WHERE option_id = %d", $param);
     $result = $wpdb->query($sql);
-    $log->debug(print_r($result, true));
+//    $logger->debug(print_r($result, true));
 }
 wpdbTest(15);

@@ -2,12 +2,12 @@
 <configuration xmlns="http://logging.apache.org/log4php/">
     <appender name="BkWpAppender" class="LoggerAppenderFile">
         <layout class="LoggerLayoutPattern">
-            <param name="conversionPattern" value="%date [%logger] %message%newline" />
+            <param name="conversionPattern" value="%date [%logger] %message%newline"/>
         </layout>
-        <param name="file" value="/var/www/html/wp/bkwp.log" />
+        <param name="file" value="/var/www/html/wp/bkwp.log"/>
     </appender>
     <root>
-        <level value="TRACE" />
-        <appender_ref ref="BkWpAppender" />
+        <level value="TRACE"/>
+        <appender_ref ref="BkWpAppender"/>
     </root>
 </configuration>
