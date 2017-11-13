@@ -1,3 +1,8 @@
+## Wordpress plugins to learn and teach
+Hier entstehen unterschiedliche Plugins von minimalistisch,
+einzig um etwas zu demonstrieren bis zu komplett, um es produktiv zu nutzen.
+
+Das Plugin zeug beinhaltet verschiedene Dinge zum Test.
 
 # WP docs
 [Main page Wordpress documentation](https://codex.wordpress.org)

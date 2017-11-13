@@ -29,8 +29,10 @@ function wpdbTest($param)
 
 function bk_zeug_preferences_menu()
 {
+    // so
 //    add_options_page('BK Zeug Prefs', 'BK Zeug', 'manage_options', 'bk-zeug-prefs', 'bk_zeug_preferences_page');
 
+    // oder so
     add_submenu_page(
         'options-general.php',        //The new options page will be added as a sub menu to the Settings menu.
         'BK Zeug Prefs',        //Page <title>
