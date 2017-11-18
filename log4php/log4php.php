@@ -12,7 +12,7 @@
  */
 require_once __DIR__ . '/Logger.php';
 register_activation_hook(__FILE__, 'bk_log4php_install');
-global $logger;
+
 function bk_log4php_install()
 {
     global $logger;
@@ -45,4 +45,4 @@ function bk_log4php_global_var()
     Logger::configure(__DIR__ . '/config.xml');
     $logger = Logger::getLogger('bkLogger');
 }
-add_action('parse_request', 'bk_log4php_global_var');
+add_action('init', 'bk_log4php_global_var');

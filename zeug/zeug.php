@@ -9,8 +9,6 @@
  */
 ?>
 <?php
-Logger::configure(__DIR__ . '/../log4php/config.xml');
-$logger = Logger::getLogger('bkLogger');
 
 /**
  * @param $param
