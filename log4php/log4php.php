@@ -2,7 +2,7 @@
 /*
   Plugin Name: Apache log4php
   Plugin URI: http://logging.apache.org/log4php/
-  Description: Apache log4php für Wordpress (No activation in Wordpress required to work)
+  Description: Apache log4php for Wordpress (After activation in Wordpress there is a global variable $logger)
   Version: 0.0.1
   Author: Torsten Brieskorn
   Author URI: http://www.bitkorn.de
