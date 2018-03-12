@@ -1,6 +1,6 @@
 ## Wordpress plugins to learn and teach
-Hier entstehen unterschiedliche Plugins von minimalistisch,
-einzig um etwas zu demonstrieren bis zu komplett, um es produktiv zu nutzen.
+Im Ramen meiner ehrenamtlichen Lehrveranstaltungen im [Computer Fan Club Hagen e.V.](http://www.cfc-hagen.de/)
+entstehen hier unterschiedliche Plugins von minimalistisch -einzig um etwas zu demonstrieren- bis zu komplett, um es produktiv zu nutzen.
 
 Das Plugin zeug beinhaltet verschiedene Dinge zum Test.
 
